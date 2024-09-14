@@ -4,7 +4,7 @@ UNHCR ASSESSMENT
 
 1. Vacancy List Screen
 
-Fetch data from the API endpoint: https://www.unhcrjo.org/jobs/api
+Fetch data from the API endpoint
 Display the following fields for each vacancy:
 Title
 Company
@@ -42,6 +42,4 @@ Use appropriate UI components to display the list and details.
 Ensure smooth navigation between screens.
 Submission
 
-Submit the source code in a GitHub repository.
-Provide screenshots or a video demo of the application in action.
-Submit the APK file to the form at https://forms.gle/8gc8q7w2uvQMfrzo9
+
