@@ -18,7 +18,7 @@ class ListViewIteam extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 100,
+      height: 130,
       margin: EdgeInsets.only(right: 10,top: 0,bottom: 10,left: 0),
       decoration: BoxDecoration(
           color: Colors.white,
@@ -46,7 +46,7 @@ class ListViewIteam extends StatelessWidget {
             Navigator.push(
               context,
               MaterialPageRoute(
-                  builder: (context) => VacancyDetailsScreen(vacancy: vacancy)),
+                  builder: (context) => DetailsScreen(vacancy: vacancy)),
             );
           },
         ),

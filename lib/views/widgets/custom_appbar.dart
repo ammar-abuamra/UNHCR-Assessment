@@ -9,7 +9,11 @@ class CustomAppBar extends StatelessWidget {
     return Column(
       children: [
         Container(
-          padding: EdgeInsets.only(top: 100, left: 10, right: 10),
+          padding: EdgeInsets.only(
+            top: 60,
+            left: 10,
+            right: 10,
+          ),
           decoration: BoxDecoration(
               color: Colors.blue,
               borderRadius: BorderRadius.only(
@@ -46,6 +50,8 @@ class CustomAppBar extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10),
                         color: Colors.white),
                     child: TextField(
+                      textAlign: TextAlign.justify,
+                      textAlignVertical: TextAlignVertical.center,
                       decoration: InputDecoration(
                         hintText: ('See Available Vaccine'),
                         hintStyle: TextStyle(fontWeight: FontWeight.w300),
@@ -54,7 +60,6 @@ class CustomAppBar extends StatelessWidget {
                       ),
                     ),
                   )),
-
                   Container(
                     padding: EdgeInsets.all(10),
                     margin: EdgeInsets.only(left: 10),
@@ -75,7 +80,6 @@ class CustomAppBar extends StatelessWidget {
               SizedBox(
                 height: 50,
               ),
-
             ],
           ),
         ),

@@ -6,9 +6,9 @@ import '../../models/vacancy.dart';
 import '../deetails_screen.dart';
 import '../widgets/list_view_iteam.dart';
 
-Widget buildMobileLayout(List<Vacancy> vacancies) {
+Widget CustomWidget(List<Vacancy> vacancies) {
   return ListView.builder(
-
+    padding: EdgeInsets.zero,
     itemCount: vacancies.length,
     itemBuilder: (context, index) {
       final vacancy = vacancies[index];
