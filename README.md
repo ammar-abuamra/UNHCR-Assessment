@@ -1,16 +1,47 @@
-# unhcr
+UNHCR ASSESSMENT
+![Apple iPhone 11 Pro Max Presentation](https://github.com/user-attachments/assets/d3492f97-54fc-4ca4-85db-5adfe15c431b)
+ 
 
-A new Flutter project.
+1. Vacancy List Screen
 
-## Getting Started
+Fetch data from the API endpoint: https://www.unhcrjo.org/jobs/api
+Display the following fields for each vacancy:
+Title
+Company
+Description
+Date posted
+Image URL (as a thumbnail)
+Implement a click event to navigate to the Vacancy Details Screen when a vacancy is selected.
+2. Vacancy Details Screen
 
-This project is a starting point for a Flutter application.
+Display all fields of the selected vacancy:
 
-A few resources to get you started if this is your first Flutter project:
+Job ID
+Title
+Company
+Location
+Description
+Long description
+Salary
+Date posted
+Image URL (as a thumbnail)
+Instructions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Setup
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Use any mobile development framework (e.g., React Native, Flutter, Java, Kotlin).
+Ensure the application is responsive and works on Android devices.
+API Integration
+
+Use the provided API endpoint to fetch the list of vacancies.
+Handle API errors gracefully and display appropriate messages to the user.
+UI/UX
+
+Design a clean and user-friendly interface.
+Use appropriate UI components to display the list and details.
+Ensure smooth navigation between screens.
+Submission
+
+Submit the source code in a GitHub repository.
+Provide screenshots or a video demo of the application in action.
+Submit the APK file to the form at https://forms.gle/8gc8q7w2uvQMfrzo9
